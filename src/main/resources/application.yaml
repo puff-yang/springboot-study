@@ -1,0 +1,10 @@
+person:
+  name: zhangsan
+  books:
+    - book1
+    - book2
+  email: test
+# 指定激活配置文件
+spring:
+  profiles:
+    active: test
